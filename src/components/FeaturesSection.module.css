@@ -1,0 +1,27 @@
+.section {
+    padding: 4rem 2rem;
+    background-color: #3e2723;
+}
+
+.sectionTitle {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.sectionSubtitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: #bcaaa4;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}

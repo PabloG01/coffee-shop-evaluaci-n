@@ -25,3 +25,15 @@
     justify-content: center;
     gap: 1.5rem;
 }
+
+/* ── Responsividad mobile ── */
+@media (max-width: 768px) {
+    .sectionTitle {
+        font-size: 1.8rem;
+    }
+
+    .cardsContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+}

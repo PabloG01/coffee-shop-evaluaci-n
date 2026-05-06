@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styles from './Navbar.module.css';
 import logoImg from '../assets/logo.png';
 
@@ -6,14 +7,15 @@ const Navbar = () => {
         <nav className={styles.navbar}>
             <div className={styles.logoContainer}>
                 <img src={logoImg} alt="Brew Haven Logo" className={styles.logoImage} />
-                <h1 className={styles.logoText}>Brew Haven</h1>
+                <Link to="/" className={styles.logoText}>Brew Haven</Link>
             </div>
             <ul className={styles.links}>
-                <li><a href="#home">Inicio</a></li>
+                <li><Link to="/">Inicio</Link></li>
                 <li><a href="#menu">Menú</a></li>
-                <li><a href="#about">Nosotros</a></li>
+                <li><Link to="/desarrollador">Desarrollador</Link></li>
             </ul>
         </nav>
     );
 };
+
 export default Navbar;

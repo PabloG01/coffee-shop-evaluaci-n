@@ -1,0 +1,52 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fdf6f0;
+  padding: 2rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.code {
+  font-family: 'Playfair Display', serif;
+  font-size: 8rem;
+  color: #d84315;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.message {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  color: #3e2723;
+  margin-bottom: 0.5rem;
+}
+
+.sub {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  color: #8d6e63;
+  margin-bottom: 2rem;
+}
+
+.homeLink {
+  font-family: 'Inter', sans-serif;
+  padding: 0.7rem 1.8rem;
+  background-color: #d84315;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.homeLink:hover {
+  background-color: #bf360c;
+}

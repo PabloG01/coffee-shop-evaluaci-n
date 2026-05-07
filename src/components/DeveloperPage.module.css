@@ -24,7 +24,6 @@
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    /* Foto circular */
     object-fit: cover;
     border: 4px solid #d84315;
     margin-bottom: 1.5rem;

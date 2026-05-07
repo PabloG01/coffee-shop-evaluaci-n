@@ -12,10 +12,9 @@ const Navbar = () => {
             <ul className={styles.links}>
                 <li><Link to="/">Inicio</Link></li>
                 <li><a href="#menu">Menú</a></li>
-                <li><Link to="/desarrollador">Desarrollador</Link></li>
             </ul>
         </nav>
     );
 };
 
-export default Navbar;
+export default Navbar;  

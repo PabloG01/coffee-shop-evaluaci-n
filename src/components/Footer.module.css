@@ -1,0 +1,52 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.9rem 2rem;
+    background-color: #2c1a17;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.redLink {
+    color: #bcaaa4;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+.redLink:hover {
+    color: #d84315;
+}
+
+.center {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    color: #8d6e63;
+    margin: 0;
+}
+
+.devLink {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    color: #d84315;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.devLink:hover {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+}

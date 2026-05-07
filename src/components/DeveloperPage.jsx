@@ -1,4 +1,3 @@
-// src/components/DeveloperPage.jsx
 import styles from './DeveloperPage.module.css';
 import developerPhoto from '../assets/developer.jpg';
 

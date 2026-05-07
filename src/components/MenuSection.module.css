@@ -26,7 +26,6 @@
     gap: 2rem;
 }
 
-/* ── Responsividad mobile ── */
 @media (max-width: 768px) {
     .sectionTitle {
         font-size: 1.8rem;

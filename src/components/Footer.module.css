@@ -4,6 +4,7 @@
     justify-content: space-between;
     padding: 0.9rem 2rem;
     background-color: #2c1a17;
+    position: relative;
 }
 
 .redes {
@@ -28,6 +29,9 @@
     font-size: 0.9rem;
     color: #8d6e63;
     margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .devLink {
